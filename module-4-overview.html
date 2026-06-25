@@ -33,7 +33,37 @@ ul.clean{padding-left:1.15rem}ul.clean li{margin:.35rem 0}.check{list-style:none
 .work{background:var(--cream);border:1px solid #eadfbd}.blank{height:24px;border-bottom:1px dashed #9ba7b5;margin:5px 0 12px}
 @media(max-width:900px){.hero-grid,.layout,.g2,.g3,.calc-grid,.results{grid-template-columns:1fr}.sidebar{position:relative;top:auto;max-height:none}.lesson-nav{flex-direction:column}}
 @media print{.topnav,.sidebar,.print,.lesson-nav,button{display:none!important}.layout{display:block;padding:20px 0}.hero{padding:28px 0}.card,.calc{box-shadow:none;break-inside:avoid}}
-</style></head><body>
+</style>
+.home-button{
+position:fixed;
+left:20px;
+bottom:20px;
+z-index:9999;
+display:inline-flex;
+align-items:center;
+justify-content:center;
+padding:12px 18px;
+border-radius:999px;
+background:linear-gradient(135deg,#c79b3b,#efd58d);
+color:#071a33;
+text-decoration:none;
+font-family:"Prompt",sans-serif;
+font-size:14px;
+font-weight:700;
+box-shadow:0 10px 25px rgba(7,26,51,.22);
+transition:.2s ease;
+}
+
+.home-button:hover{
+transform:translateY(-3px);
+}
+
+@media print{
+.home-button{
+display:none;
+}
+}
+</head><body>
 <header class="hero"><div class="wrap hero-grid"><div><div class="eyebrow">Module 4 · Facebook Ads Masterclass · Detailed Edition</div><h1>ภาพรวม Facebook Ads Masterclass</h1><p>หลักสูตร Facebook Ads สำหรับผู้เริ่มต้น ตั้งแต่โครงสร้างบัญชีจนถึงการอ่านผลและขยายงบ</p></div><aside class="progress-card"><b>บทที่ 0 จาก 8</b><div class="bar"><i style="width:6%"></i></div><p class="tiny" style="color:#c7d5e4">สำหรับผู้เริ่มต้น · Case Study: NURAA Modest Wear</p></aside></div></header>
 <nav class="topnav"><div class="inner"><a href="module-4-overview.html">ภาพรวม Facebook Ads Masterclass</a><a href="01-business-readiness.html">บทที่ 1 เตรียมธุรกิจก่อนยิงแอด</a><a href="02-campaign-adset-ad.html">บทที่ 2 Campaign, Ad Set และ Ad</a><a href="03-objective-tracking.html">บทที่ 3 Objective, Pixel และการวัดผล</a><a href="04-abo-cbo.html">บทที่ 4 ABO, CBO และการวางงบ</a><a href="05-campaign-structures.html">บทที่ 5 เปรียบเทียบโครงสร้างแคมเปญ</a><a href="06-learning-testing.html">บทที่ 6 Learning Phase และการทดสอบ</a><a href="07-metrics-benchmarks.html">บทที่ 7 Metrics และช่วงวินิจฉัย</a><a href="08-analysis-scaling-workshop.html">บทที่ 8 วิเคราะห์ ปรับ และ Scale</a></div></nav>
 <div class="layout"><aside class="sidebar"><strong>สารบัญหน้านี้</strong><a href="#intro">ภาพรวม</a><a href="#case">NURAA</a><a href="#structure">3 ระดับ</a><a href="#map">8 บท</a><a href="#outcome">ผลลัพธ์</a><hr style="border:0;border-top:1px solid var(--line);margin:14px 0"><a href="module-4-overview.html">← กลับหน้าหลัก</a></aside><main>
@@ -46,4 +76,8 @@ ul.clean{padding-left:1.15rem}ul.clean li{margin:.35rem 0}.check{list-style:none
 <section id="outcome"><div class="section-head"><div class="num">✓</div><div><h2>เมื่อเรียนจบต้องทำได้</h2></div></div><div class="card"><ul class="check"><li>สร้าง Sales Campaign ได้</li><li>แยก Campaign, Ad Set, Ad ได้</li><li>เลือก ABO หรือ CBO ตามวัตถุประสงค์</li><li>เลือกโครงสร้าง 1–1–5, 1–3–1 หรือ 1–3–5 ได้</li><li>คำนวณงบจาก Target CPA</li><li>อ่าน Funnel และวินิจฉัยปัญหา</li><li>ตัดสินใจ Stop, Improve หรือ Scale</li></ul></div></section>
 <div class="lesson-nav"><span></span><a href="01-business-readiness.html"><small>บทถัดไป →</small>บทที่ 1 เตรียมธุรกิจก่อนยิงแอด</a></div></main></div>
 <footer class="footer"><div class="wrap"><strong>Facebook Ads Masterclass</strong><br>Module 4 ฉบับละเอียดสำหรับผู้เริ่มต้น<p class="tiny" style="color:#aebed0">ช่วงตัวเลขในบทเรียนใช้เป็นแนวทางวินิจฉัย ไม่ใช่มาตรฐานตายตัว ควรตัดสินจาก Target CPA, Break-even, ข้อมูลบัญชี และกำไรจริง</p></div></footer>
-<button class="print" onclick="window.print()">พิมพ์ / บันทึก PDF</button></body></html>
+<button class="print" onclick="window.print()">พิมพ์ / บันทึก PDF</button>
+<a href="https://abcstudiomkt.github.io/WorkshopGZ/"
+   class="home-button">
+  ← กลับหน้าหลัก
+</a></body></html>
